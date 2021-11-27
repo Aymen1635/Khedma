@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:khedma/Screens/Login/components/background.dart';
 import 'package:khedma/Screens/Profile/Account.dart';
 import 'package:khedma/Screens/Signup/signup_screen.dart';
+import 'package:khedma/Screens/home/home_screen.dart';
 import 'package:khedma/components/already_have_an_account_acheck.dart';
 import 'package:khedma/components/rounded_button.dart';
 import 'package:khedma/components/rounded_input_field.dart';
@@ -84,7 +85,7 @@ class _BodyState extends State<Body> {
                   context,
                   MaterialPageRoute(
                     builder: (context) {
-                      return EditProfilePage();
+                      return HomeScreen();
                     },
                   ),
                 );
